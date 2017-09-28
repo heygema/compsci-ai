@@ -22,9 +22,6 @@ def dfs(graph, start):
             stack.extend(graph[node] - visited)
     return visited
 
-def iddfs(graph, start):
-    return 0
-
 if __name__ == "__main__":
     print("dfs solution")
     vs = dfs(graph, 'A')
